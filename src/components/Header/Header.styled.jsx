@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 
-export const Title = styled.span`
+export const Title = styled.h1`
   display: block;
   text-align: center;
   font-family: 'Montserrat Alternates', cursive;
