@@ -1,0 +1,86 @@
+[
+  {
+    "user": "Elon Musk",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "https://i.ibb.co/QbKM10b/Elon-Musk.png",
+    "id": "1"
+  },
+  {
+    "user": "Keanu Reeves",
+    "tweets": 555,
+    "followers": 800300,
+    "avatar": "https://i.ibb.co/DRrgwPT/Keanu-Reeves.png",
+    "id": "2"
+  },
+  {
+    "user": "Joe Biden",
+    "tweets": 333,
+    "followers": 1000001,
+    "avatar": "https://i.ibb.co/6PtVKFT/Joe-Biden.png",
+    "id": "3"
+  },
+  {
+    "user": "Bill Gates",
+    "tweets": 1000,
+    "followers": 7777,
+    "avatar": "https://i.ibb.co/NtpL3BZ/Bill-Gates.png",
+    "id": "4"
+  },
+  {
+    "user": "Mark Zuckerberg",
+    "tweets": 999,
+    "followers": 3003,
+    "avatar": "https://i.ibb.co/X4TyBYY/Mark-Zuckerberg.png",
+    "id": "5"
+  },
+  {
+    "user": "Charlize Theron",
+    "tweets": 735,
+    "followers": 112233,
+    "avatar": "https://i.ibb.co/BGswCLC/CHARLIZE-THERON.png",
+    "id": "6"
+  },
+  {
+    "user": "Jennifer Aniston",
+    "tweets": 7859,
+    "followers": 1002300,
+    "avatar": "https://i.ibb.co/HChxsYz/Jennifer-Aniston.png",
+    "id": "7"
+  },
+  {
+    "user": "Jim Carrey",
+    "tweets": 35685,
+    "followers": 1014856,
+    "avatar": "https://i.ibb.co/7S5VDvf/Jim-Carrey.png",
+    "id": "8"
+  },
+  {
+    "user": "Pamela Anderson",
+    "tweets": 6969,
+    "followers": 56244002,
+    "avatar": "https://i.ibb.co/Pr6VzR0/Pamela-Anderson.png",
+    "id": "9"
+  },
+  {
+    "user": "Valerii Zaluzhnyi",
+    "tweets": 1000,
+    "followers": 36000000,
+    "avatar": "https://i.ibb.co/G9hDb7w/Valerii-Zaluzhnyi.png",
+    "id": "10"
+  },
+  {
+    "user": "Natalie Portman",
+    "tweets": 888,
+    "followers": 33356,
+    "avatar": "https://i.ibb.co/fQMznFr/Natalie-Portman.png",
+    "id": "11"
+  },
+  {
+    "user": "Angelina Jolie",
+    "tweets": 989,
+    "followers": 1000702,
+    "avatar": "https://i.ibb.co/NsTc0qF/Angelina-Jolie-removebg-preview.png",
+    "id": "12"
+  }
+]

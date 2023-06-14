@@ -4,7 +4,7 @@ import decor from 'images/decor.png';
 export const Wrapper = styled.div`
   position: relative;
   width: 380px;
-  height: 460px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -55,6 +55,10 @@ export const InnerCircleBorder = styled.div`
   border-radius: 50%;
 `;
 
+export const StyledImg = styled.img`
+  border-radius: 50%;
+`;
+
 export const Decor = styled.div`
   width: 308px;
   height: 168px;
@@ -79,6 +83,10 @@ export const InteractiveContentWrapper = styled.div`
   align-items: center;
 `;
 
+export const TweetersName = styled.span`
+  margin-bottom: 16px;
+`;
+
 export const TweetsQuantity = styled.span`
   margin-bottom: 16px;
 `;
@@ -95,9 +103,11 @@ export const FollowBtn = styled.button`
   line-height: 1.22;
 
   color: #373737;
-  background-color: #ebd8ff;
+  background-color: ${props =>
+    props[`data-following`] ? '#5CD3A8' : '#ebd8ff'};
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border: none;
   outline: none;
   border-radius: 10px;
+  cursor: pointer;
 `;
