@@ -14,12 +14,4 @@ export const AppContent = styled.div`
 
 export const Main = styled.main`
   flex: 1 0 auto;
-  padding: 20px 0;
-
-  @media screen and (min-width: 768px) {
-    padding: 30px 0;
-  }
-  @media screen and (min-width: 1280px) {
-    padding: 40px 0;
-  }
 `;
