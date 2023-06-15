@@ -16,14 +16,17 @@ export const CardsWrapper = styled.div`
 `;
 
 export const CardsList = styled.ul`
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+
   row-gap: 30px;
   column-gap: 38px;
   list-style: none;
+
+  @media screen and (min-width: 1280px) {
+    justify-content: flex-start;
+  }
 `;
 
 export const ButtonsWrapper = styled.div`
