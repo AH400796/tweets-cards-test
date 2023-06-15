@@ -3,12 +3,13 @@ import decor from 'images/decor.png';
 
 export const Wrapper = styled.div`
   position: relative;
-  width: 380px;
+  flex-basis: 380px;
   height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
   padding: 28px 36px;
   border-radius: 20px;
 
@@ -72,15 +73,15 @@ export const LogoGOIT = styled.div`
 `;
 
 export const InteractiveContentWrapper = styled.div`
-  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  font-style: normal;
   color: #ebd8ff;
   font-size: 20px;
   line-height: 1.2;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 `;
 
 export const TweetersName = styled.span`

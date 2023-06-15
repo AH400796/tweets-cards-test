@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import logo from 'images/goit-logo.png';
 import {
   Wrapper,
@@ -15,21 +14,15 @@ import {
   StyledImg,
 } from './TweeterCard.styled';
 
-export default function TweeterCard({ user, tweets, followers, avatar }) {
-  const [isFollowing, setIsFollowing] = useState(
-    () => localStorage.getItem(`following+${user}`) || false
-  );
-
-  const handleToggle = () => {
-    setIsFollowing(prevState => !prevState);
-
-    if (!localStorage.getItem(`following+${user}`)) {
-      localStorage.setItem(`following+${user}`, true);
-    } else if (localStorage.getItem(`following+${user}`)) {
-      localStorage.removeItem(`following+${user}`);
-    }
-  };
-
+export default function TweeterCard({
+  id,
+  user,
+  tweets,
+  followers,
+  avatar,
+  setFollowing,
+  isFollowing,
+}) {
   const nextFollowersQuantity = (isFollowing ? 1 : 0) + followers;
   const tweetsQuantity = tweets.toLocaleString('en-EN');
   const followersQuantity = nextFollowersQuantity.toLocaleString('en-EN');
@@ -54,7 +47,7 @@ export default function TweeterCard({ user, tweets, followers, avatar }) {
         <FollowersQuantity>{followersQuantity} Followers</FollowersQuantity>
         <FollowBtn
           type="button"
-          onClick={handleToggle}
+          onClick={() => setFollowing(id)}
           data-following={isFollowing}
         >
           {isFollowing ? 'Following' : 'Follow'}

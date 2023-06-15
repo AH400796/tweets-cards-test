@@ -13,5 +13,8 @@ export const AppContent = styled.div`
 `;
 
 export const Main = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex: 1 0 auto;
 `;

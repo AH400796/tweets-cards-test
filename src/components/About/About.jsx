@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Wrapper, Title } from './About.styled';
+import { Wrapper, Title, LinkSpan } from './About.styled';
 
 export default function About() {
   return (
@@ -16,11 +16,13 @@ export default function About() {
       </p>
       <p>
         Famous people are also no exception - all of them undeniably use social
-        networks, winning thousands of fans and followers with their posts, to
-        whom the veil of their personal lives is opened through their posts. Do
-        you know some of the most popular tweeters? No? Then come{' '}
+        networks, winning thousands of fans and followers with their posts and
+        to whom the veil of their personal lives is opened through posts.
+      </p>
+      <p>
+        Do you know some of the most popular tweeters? No? Then come{' '}
         <Link to="/tweets">
-          <strong>here</strong>
+          <LinkSpan>here</LinkSpan>
         </Link>{' '}
         and find out who of the world's celebrities are biggest social networks
         users!

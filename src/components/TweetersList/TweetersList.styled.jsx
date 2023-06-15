@@ -1,21 +1,29 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const CardsWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  row-gap: 30px;
-  column-gap: 20px;
-`;
-
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
+`;
+
+export const CardsWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+`;
+
+export const CardsList = styled.ul`
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 30px;
+  column-gap: 38px;
+  list-style: none;
 `;
 
 export const ButtonsWrapper = styled.div`
@@ -29,6 +37,13 @@ export const ButtonsWrapper = styled.div`
 export const Title = styled.h2`
   text-align: center;
   font-size: 40px;
+  line-height: 1.5;
+  color: #5736a3;
+`;
+
+export const NoFilterText = styled.h3`
+  text-align: center;
+  font-size: 24px;
   line-height: 1.5;
   color: #5736a3;
 `;
@@ -103,6 +118,18 @@ export const StyledLabel = styled.label`
   line-height: 1.22;
   background-color: #5736a3;
   color: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  outline: none;
+`;
+
+export const StyledSelect = styled.select`
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+  background-color: #ebd8ff;
+  color: #5736a3;
   border-radius: 10px;
   outline: none;
 `;
