@@ -1,6 +1,4 @@
-# Project Name
-
-Famousts TWEETERS
+# Famousts TWEETERS
 
 ## Description
 
