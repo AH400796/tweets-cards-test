@@ -35,6 +35,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - My name: Andrii Hokhman (https://github.com/AH400796)
 - Email: a.hokhman@gmail.com
-- Project Link: https://github.com/AH400796/tweets-cards-test Feel free to
-  customize the template according to your project's specific details and
-  requirements.
+- Project Link: https://github.com/AH400796/tweets-cards-test
